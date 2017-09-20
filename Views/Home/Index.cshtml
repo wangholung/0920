@@ -1,0 +1,9 @@
+﻿@using System.Globalization
+@using Microsoft.AspNetCore.Mvc.Localization
+@using multilang.Models
+@inject IViewLocalizer localizer
+CurrentCulture: @CultureInfo.CurrentCulture.Name <br />
+CurrentUICulture: @CultureInfo.CurrentUICulture.Name <br />
+Resources\Views\Home\Index: @localizer["Hello"]<br />
+
+
